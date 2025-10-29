@@ -1,0 +1,18 @@
+name: LogoutLives
+main: net.sand.logoutlives.LogoutLives
+version: 0.9.8.1 (JAVA 21)
+api-version: 1.21
+load: POSTWORLD
+author: SandAx3r
+description: Keeps players in world after they log out.
+
+commands:
+  set:
+    description: Edits LogoutLives config settings
+    usage: /set <setting> <value>
+    permission: logoutlives.admin
+
+permissions:
+  logoutlives.admin:
+    description: Allows editing LogoutLives settings
+    default: op
